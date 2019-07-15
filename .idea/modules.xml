@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/ckeditor5-build-decoupled-document-master.iml" filepath="$PROJECT_DIR$/.idea/ckeditor5-build-decoupled-document-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/ckeditor-custom.iml" filepath="$PROJECT_DIR$/.idea/ckeditor-custom.iml" />
     </modules>
   </component>
 </project>

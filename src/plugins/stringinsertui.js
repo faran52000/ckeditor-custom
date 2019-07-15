@@ -16,7 +16,6 @@ export default class StringInsertUI extends Plugin {
 	init() {
 		const editor = this.editor;
 		const componentFactory = editor.ui.componentFactory;
-		const t = editor.t;
 		const options = Array.from( list.keys() );
 
 		options.forEach( option => this._addButton( option ) );
