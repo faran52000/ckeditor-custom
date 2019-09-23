@@ -9,9 +9,9 @@ const list = new Map( [
 	[ 'company', 'Company Name' ]
 ] );
 
-export default class StringInsertUI extends Plugin {
+export default class MacroInsertUI extends Plugin {
 	static get pluginName() {
-		return 'StringInsertUI';
+		return 'MacroInsertUI';
 	}
 	init() {
 		const editor = this.editor;
@@ -20,7 +20,7 @@ export default class StringInsertUI extends Plugin {
 
 		options.forEach( option => this._addButton( option ) );
 
-		componentFactory.add( 'stringinsert', locale => {
+		componentFactory.add( 'macroinsert', locale => {
 			const dropdownView = createDropdown( locale );
 
 			// Add existing alignment buttons to dropdown's toolbar.
@@ -60,7 +60,7 @@ export default class StringInsertUI extends Plugin {
 		const editor = this.editor;
 
 		editor.ui.componentFactory.add( option, locale => {
-			const command = editor.commands.get( 'stringinsert' );
+			const command = editor.commands.get( 'macroinsert' );
 			const buttonView = new ButtonView( locale );
 
 			buttonView.set( {
@@ -72,7 +72,7 @@ export default class StringInsertUI extends Plugin {
 			buttonView.bind( 'isEnabled' ).to( command );
 			buttonView.bind( 'isOn' ).to( command, 'value', value => value === option );
 
-			this.listenTo( buttonView, 'execute', () => editor.execute( 'stringinsert', `[${ list.get( option ) }]` ) );
+			this.listenTo( buttonView, 'execute', () => editor.execute( 'macroinsert', `[${ list.get( option ) }]` ) );
 
 			return buttonView;
 		} );

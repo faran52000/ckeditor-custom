@@ -2,18 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83844a68-8cb5-4de7-9385-88b1598d31e3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/ckeditor-custom.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ckeditor5-build-decoupled-document-master.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/translations/en-gb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/translations/ms.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/plugins/autolink/autolink-command.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/plugins/autolink/autolink.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/plugins/autolink/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/plugins/macro-insert/macroinsert.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/plugins/macro-insert/macroinsertediting.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/ckeditor.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/ckeditor.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/ckeditor.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/build/ckeditor.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/translations/af.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/translations/af.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/translations/ar.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/translations/ar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/translations/ast.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/translations/ast.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/translations/az.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/translations/az.js" afterDir="false" />
@@ -44,6 +45,7 @@
       <change beforePath="$PROJECT_DIR$/build/translations/kn.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/translations/kn.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/translations/ko.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/translations/ko.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/translations/ku.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/translations/ku.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/translations/lt.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/translations/lt.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/translations/lv.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/translations/lv.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/translations/nb.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/translations/nb.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/translations/ne.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/translations/ne.js" afterDir="false" />
@@ -68,103 +70,31 @@
       <change beforePath="$PROJECT_DIR$/build/translations/vi.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/translations/vi.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/translations/zh-cn.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/translations/zh-cn.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/translations/zh.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/translations/zh.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/sample/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ckeditor.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/ckeditor.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/plugins/stringinsertui.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/plugins/stringinsertui.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/plugins/stringinsert.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/plugins/stringinsertcommand.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/plugins/macro-insert/macroinsertcommand.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/plugins/stringinsertediting.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/plugins/stringinsertui.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/plugins/macro-insert/macroinsertui.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/ckeditor.js" beforeDir="false" afterPath="$PROJECT_DIR$/tests/ckeditor.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/build/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ckeditor.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="42" column="8" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/plugins/stringinsert.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
-              <folding>
-                <element signature="e#0#57#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="757">
-              <caret line="93" lean-forward="true" selection-start-line="93" selection-end-line="93" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.editorconfig">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webpack.config.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/plugins/stringinsertui.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="22" column="57" lean-forward="true" selection-start-line="22" selection-start-column="57" selection-end-line="22" selection-end-column="57" />
-              <folding>
-                <element signature="e#0#57#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/plugins/stringinsertcommand.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/plugins/stringinsertediting.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/src/plugins/stringinsertui.js" />
-      </list>
-    </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="260" />
@@ -172,42 +102,14 @@
     <option name="width" value="1390" />
     <option name="height" value="990" />
   </component>
+  <component name="ProjectId" id="1QyL8XSra8oRadCfdmGAIcoIGN5" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="ckeditor-custom" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ckeditor-custom" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ckeditor-custom" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ckeditor-custom" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ckeditor-custom" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ckeditor-custom" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="plugins" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
-  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="editor.config.ad.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last.edited.regexp" value="**boo**" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/plugins/autolink" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -215,6 +117,15 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/plugins/macro-insert" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/plugins/autolink" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -239,36 +150,14 @@
       <option name="presentableId" value="Default" />
       <updated>1563199795780</updated>
       <workItem from="1563199797400" duration="63000" />
-      <workItem from="1563199878832" duration="177000" />
+      <workItem from="1563199878832" duration="1525000" />
+      <workItem from="1568737732844" duration="717000" />
+      <workItem from="1568810693443" duration="18124000" />
+      <workItem from="1568880747417" duration="13940000" />
+      <workItem from="1568980062144" duration="19942000" />
+      <workItem from="1569246230216" duration="655000" />
     </task>
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="260000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1032" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="npm" order="2" side_tool="true" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32932165" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3286026" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32932165" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32166302" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -283,60 +172,17 @@
       </list>
     </option>
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ckeditor.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="42" column="8" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/plugins/stringinsert.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="e#0#57#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/plugins/stringinsertcommand.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/plugins/stringinsertediting.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.editorconfig">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="757">
-          <caret line="93" lean-forward="true" selection-start-line="93" selection-end-line="93" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/plugins/stringinsertui.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="22" column="57" lean-forward="true" selection-start-line="22" selection-start-column="57" selection-end-line="22" selection-end-column="57" />
-          <folding>
-            <element signature="e#0#57#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
